@@ -1,0 +1,120 @@
+canvas{
+    display:block;
+    margin:0 auto;
+    padding:0;
+    background-color:rgb(91, 186, 245);
+}
+html{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-image: url('media/background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed
+}
+header{
+    text-align:center;
+    padding: 0em;
+    margin-bottom: 0em;
+}
+h1{
+    padding: 0;
+    margin-bottom: 0.2em;
+}
+#links{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style-type:none;
+    padding: 0;
+    margin-top: 0
+}
+a{
+    color:black;
+    text-decoration:none;
+    transition:0.5s linear;
+}
+a:hover{
+    color:purple;
+    border-bottom:1px solid purple
+}
+form{
+    text-align:center
+}
+#login-section{
+    text-align:center
+}
+#already-have-account{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center
+}
+#link-to-register{
+    margin-left:1em
+}
+#howToPlay {
+    text-align:center;
+}
+figure {
+    margin: 0 auto;
+}
+main{
+    text-align:center;
+}
+ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type:none;
+}
+section section img {
+    width:30%
+}
+section section{
+    border: 1px solid black;
+    margin: 2em
+}
+#enemies{
+    display:grid;
+    grid-template-areas: "title-area title-area title-area"
+                        "top-left top-center top-right"
+                        "bottom-left bottom-center bottom-right";
+}
+#enemies h3{
+    grid-area: title-area;
+}
+#dragon{
+    grid-area: top-left;
+}
+
+#crocodile{
+    grid-area: top-center;
+}
+
+#ufo{
+    grid-area: top-right;
+}
+
+#asteroids{
+    grid-area: bottom-left;
+}
+
+#carnivore_plants{
+    grid-area: bottom-center;
+}
+#bats{
+    grid-area: bottom-right;
+}
+#gameSampleIMG{
+    width: 30%
+}
+#starIMG{
+    width:10%
+}
+#outcome {
+    font-weight:bold;
+    font-size: 30px;
+    margin: 0em;
+}
